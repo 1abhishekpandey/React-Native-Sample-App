@@ -1,4 +1,6 @@
 apply plugin: "com.android.application"
+// For Firebase
+// apply plugin: 'com.google.gms.google-services'
 
 import com.android.build.OutputFile
 
@@ -325,6 +327,17 @@ dependencies {
     } else {
         implementation jscFlavor
     }
+
+
+
+    // MoEngage
+    implementation 'com.moengage:moe-android-sdk:10.6.01'
+    implementation 'androidx.core:core-ktx:1.3.2'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.lifecycle:lifecycle-process:2.2.0'
+
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.google.firebase:firebase-messaging:21.0.0'
 }
 
 if (isNewArchitectureEnabled()) {

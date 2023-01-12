@@ -9,6 +9,16 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@rudderstack/rudder-integration-amplitude-react-native": "^1.0.2",
+    "@rudderstack/rudder-integration-appcenter-react-native": "^1.0.3",
+    "@rudderstack/rudder-integration-appsflyer-react-native": "^1.5.1",
+    "@rudderstack/rudder-integration-braze-react-native": "^1.0.3",
+    "@rudderstack/rudder-integration-clevertap-react-native": "^1.0.3",
+    "@rudderstack/rudder-integration-firebase-react-native": "^1.0.10",
+    "@rudderstack/rudder-integration-moengage-react-native": "^1.0.2",
+    "@rudderstack/rudder-integration-singular-react-native": "^1.0.2",
+    "@rudderstack/rudder-sdk-react-native": "^1.5.2",
+    "async-lock": "^1.4.0",
     "expo": "~47.0.12",
     "expo-splash-screen": "~0.17.5",
     "expo-status-bar": "~1.4.2",

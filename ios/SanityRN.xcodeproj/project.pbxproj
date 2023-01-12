@@ -11,9 +11,10 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		96905EF65AED1B983A6B3ABC /* libPods-SanityRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-SanityRN.a */; };
+		8C83ED7D29705EEE008E5564 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C83ED7C29705EEE008E5564 /* GoogleService-Info.plist */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		C50C4DCC34FADECA82617CBB /* libPods-SanityRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8105C467C98569C8A5669AC3 /* libPods-SanityRN.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,9 +25,10 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SanityRN/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SanityRN/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SanityRN/main.m; sourceTree = "<group>"; };
-		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-SanityRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SanityRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C2E3173556A471DD304B334 /* Pods-SanityRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SanityRN.debug.xcconfig"; path = "Target Support Files/Pods-SanityRN/Pods-SanityRN.debug.xcconfig"; sourceTree = "<group>"; };
-		7A4D352CD337FB3A3BF06240 /* Pods-SanityRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SanityRN.release.xcconfig"; path = "Target Support Files/Pods-SanityRN/Pods-SanityRN.release.xcconfig"; sourceTree = "<group>"; };
+		30CF12C53DE1A948C4640359 /* Pods-SanityRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SanityRN.release.xcconfig"; path = "Target Support Files/Pods-SanityRN/Pods-SanityRN.release.xcconfig"; sourceTree = "<group>"; };
+		485EDF14EA1905BD74216988 /* Pods-SanityRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SanityRN.debug.xcconfig"; path = "Target Support Files/Pods-SanityRN/Pods-SanityRN.debug.xcconfig"; sourceTree = "<group>"; };
+		8105C467C98569C8A5669AC3 /* libPods-SanityRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SanityRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C83ED7C29705EEE008E5564 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = SanityRN/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -38,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96905EF65AED1B983A6B3ABC /* libPods-SanityRN.a in Frameworks */,
+				C50C4DCC34FADECA82617CBB /* libPods-SanityRN.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +50,7 @@
 		13B07FAE1A68108700A75B9A /* SanityRN */ = {
 			isa = PBXGroup;
 			children = (
+				8C83ED7C29705EEE008E5564 /* GoogleService-Info.plist */,
 				BB2F792B24A3F905000567C9 /* Supporting */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -64,7 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				58EEBF8E8E6FB1BC6CAF49B5 /* libPods-SanityRN.a */,
+				8105C467C98569C8A5669AC3 /* libPods-SanityRN.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,8 +122,8 @@
 		D65327D7A22EEC0BE12398D9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6C2E3173556A471DD304B334 /* Pods-SanityRN.debug.xcconfig */,
-				7A4D352CD337FB3A3BF06240 /* Pods-SanityRN.release.xcconfig */,
+				485EDF14EA1905BD74216988 /* Pods-SanityRN.debug.xcconfig */,
+				30CF12C53DE1A948C4640359 /* Pods-SanityRN.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -140,13 +143,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SanityRN" */;
 			buildPhases = (
-				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
+				9EC3A9010AC3FE9CD1E9E59A /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
+				F2561ED217A89BC9D05F2DD9 /* [CP] Embed Pods Frameworks */,
+				7C2EF3E6084507ABA70DD214 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
+				8C83ED7D29705EEE008E5564 /* GoogleService-Info.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
 			);
@@ -216,7 +221,173 @@
 			shellPath = /bin/sh;
 			shellScript = "if [[ -f \"$PODS_ROOT/../.xcode.env\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env\"\nfi\nif [[ -f \"$PODS_ROOT/../.xcode.env.local\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.local\"\nfi\n\n# The project root by default is one level up from the ios directory\nexport PROJECT_ROOT=\"$PROJECT_DIR\"/..\n\nif [[ \"$CONFIGURATION\" = *Debug* ]]; then\n  export SKIP_BUNDLING=1\nfi\nif [[ -z \"$ENTRY_FILE\" ]]; then\n  # Set the entry JS file using the bundler's entry resolution.\n  export ENTRY_FILE=\"$(\"$NODE_BINARY\" -e \"require('expo/scripts/resolveAppEntry')\" $PROJECT_ROOT ios relative | tail -n 1)\"\nfi\n\n`\"$NODE_BINARY\" --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/react-native-xcode.sh'\"`\n\n";
 		};
-		08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */ = {
+		7C2EF3E6084507ABA70DD214 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SanityRN/Pods-SanityRN-resources.sh",
+				"${PODS_ROOT}/Amplitude/Sources/Amplitude/Resources/ComodoRsaDomainValidationCA.der",
+				"${PODS_ROOT}/Amplitude/Sources/EventExplorer/Resources/AMPBubbleView.xib",
+				"${PODS_ROOT}/Amplitude/Sources/EventExplorer/Resources/AMPInfoViewController.xib",
+				"${PODS_ROOT}/Amplitude/Sources/EventExplorer/Resources/Images/cancel.png",
+				"${PODS_ROOT}/Amplitude/Sources/EventExplorer/Resources/Images/cancel@2x.png",
+				"${PODS_ROOT}/Amplitude/Sources/EventExplorer/Resources/Images/cancel@3x.png",
+				"${PODS_ROOT}/Amplitude/Sources/EventExplorer/Resources/Images/logo-banner.png",
+				"${PODS_ROOT}/Amplitude/Sources/EventExplorer/Resources/Images/logo-banner@2x.png",
+				"${PODS_ROOT}/Amplitude/Sources/EventExplorer/Resources/Images/logo-banner@3x.png",
+				"${PODS_ROOT}/Amplitude/Sources/EventExplorer/Resources/Images/logo-button.png",
+				"${PODS_ROOT}/Amplitude/Sources/EventExplorer/Resources/Images/logo-button@2x.png",
+				"${PODS_ROOT}/Amplitude/Sources/EventExplorer/Resources/Images/logo-button@3x.png",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Appboy-iOS-SDK/AppboyUI.ContentCards.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Appboy-iOS-SDK/Appboy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Appboy-iOS-SDK/AppboyUI.InAppMessage.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Appboy-iOS-SDK/AppboyUI.NewsFeed.bundle",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/DigiCertGlobalRootCA.crt",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/DigiCertSHA2SecureServerCA.crt",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTCoverImageViewController~ipad.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTCoverImageViewController~ipadland.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTCoverImageViewController~iphoneland.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTCoverImageViewController~iphoneport.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTCoverViewController~ipad.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTCoverViewController~ipadland.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTCoverViewController~iphoneland.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTCoverViewController~iphoneport.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTFooterViewController~ipad.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTFooterViewController~ipadland.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTFooterViewController~iphoneland.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTFooterViewController~iphoneport.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTHalfInterstitialImageViewController~ipad.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTHalfInterstitialImageViewController~ipadland.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTHalfInterstitialImageViewController~iphoneland.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTHalfInterstitialImageViewController~iphoneport.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTHalfInterstitialViewController~ipad.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTHalfInterstitialViewController~ipadland.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTHalfInterstitialViewController~iphoneland.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTHalfInterstitialViewController~iphoneport.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTHeaderViewController~ipad.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTHeaderViewController~ipadland.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTHeaderViewController~iphoneland.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTHeaderViewController~iphoneport.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTInterstitialImageViewController~ipad.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTInterstitialImageViewController~ipadland.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTInterstitialImageViewController~iphoneland.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTInterstitialImageViewController~iphoneport.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTInterstitialViewController~ipad.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTInterstitialViewController~ipadland.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTInterstitialViewController~iphoneland.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/InApps/resources/CTInterstitialViewController~iphoneport.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/Inbox/resources/CleverTapInboxViewController.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/Inbox/resources/CTCarouselImageMessageCell~land.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/Inbox/resources/CTCarouselImageMessageCell~port.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/Inbox/resources/CTCarouselImageView.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/Inbox/resources/CTCarouselMessageCell~land.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/Inbox/resources/CTCarouselMessageCell~port.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/Inbox/resources/CTInboxIconMessageCell~land.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/Inbox/resources/CTInboxIconMessageCell~port.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/Inbox/resources/CTInboxSimpleMessageCell~land.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/Inbox/resources/CTInboxSimpleMessageCell~port.xib",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/Inbox/resources/ct_default_audio.png",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/Inbox/resources/ct_default_landscape_image.png",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/Inbox/resources/ct_default_portrait_image.png",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/Inbox/resources/ct_default_video.png",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/Inbox/resources/ct_volume_off.png",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/Inbox/resources/ct_volume_on.png",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/Inbox/resources/ic_pause@1x.png",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/Inbox/resources/ic_pause@2x.png",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/Inbox/resources/ic_pause@3x.png",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/Inbox/resources/ic_play@1x.png",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/Inbox/resources/ic_play@2x.png",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/Inbox/resources/ic_play@3x.png",
+				"${PODS_ROOT}/CleverTap-iOS-SDK/CleverTapSDK/Inbox/resources/Inbox.xcdatamodeld",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ComodoRsaDomainValidationCA.der",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMPBubbleView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMPInfoViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/cancel.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/cancel@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/cancel@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/logo-banner.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/logo-banner@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/logo-banner@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/logo-button.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/logo-button@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/logo-button@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AppboyUI.ContentCards.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Appboy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AppboyUI.InAppMessage.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AppboyUI.NewsFeed.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DigiCertGlobalRootCA.crt",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DigiCertSHA2SecureServerCA.crt",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTCoverImageViewController~ipad.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTCoverImageViewController~ipadland.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTCoverImageViewController~iphoneland.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTCoverImageViewController~iphoneport.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTCoverViewController~ipad.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTCoverViewController~ipadland.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTCoverViewController~iphoneland.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTCoverViewController~iphoneport.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTFooterViewController~ipad.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTFooterViewController~ipadland.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTFooterViewController~iphoneland.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTFooterViewController~iphoneport.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTHalfInterstitialImageViewController~ipad.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTHalfInterstitialImageViewController~ipadland.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTHalfInterstitialImageViewController~iphoneland.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTHalfInterstitialImageViewController~iphoneport.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTHalfInterstitialViewController~ipad.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTHalfInterstitialViewController~ipadland.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTHalfInterstitialViewController~iphoneland.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTHalfInterstitialViewController~iphoneport.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTHeaderViewController~ipad.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTHeaderViewController~ipadland.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTHeaderViewController~iphoneland.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTHeaderViewController~iphoneport.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTInterstitialImageViewController~ipad.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTInterstitialImageViewController~ipadland.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTInterstitialImageViewController~iphoneland.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTInterstitialImageViewController~iphoneport.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTInterstitialViewController~ipad.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTInterstitialViewController~ipadland.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTInterstitialViewController~iphoneland.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTInterstitialViewController~iphoneport.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CleverTapInboxViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTCarouselImageMessageCell~land.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTCarouselImageMessageCell~port.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTCarouselImageView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTCarouselMessageCell~land.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTCarouselMessageCell~port.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTInboxIconMessageCell~land.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTInboxIconMessageCell~port.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTInboxSimpleMessageCell~land.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTInboxSimpleMessageCell~port.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ct_default_audio.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ct_default_landscape_image.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ct_default_portrait_image.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ct_default_video.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ct_volume_off.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ct_volume_on.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_pause@1x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_pause@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_pause@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_play@1x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_play@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_play@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Inbox.momd",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXConstants.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SanityRN/Pods-SanityRN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EC3A9010AC3FE9CD1E9E59A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -238,24 +409,30 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
+		F2561ED217A89BC9D05F2DD9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SanityRN/Pods-SanityRN-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-SanityRN/Pods-SanityRN-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoEngage-iOS-SDK/MoEngageSDK.framework/MoEngageSDK",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoEngage-iOS-SDK/MoEngageCore.framework/MoEngageCore",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoEngage-iOS-SDK/MoEngageAnalytics.framework/MoEngageAnalytics",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoEngage-iOS-SDK/MoEngageMessaging.framework/MoEngageMessaging",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MoEngage-iOS-SDK/MoEngageObjCUtils.framework/MoEngageObjCUtils",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXConstants.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MoEngageSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MoEngageCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MoEngageAnalytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MoEngageMessaging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MoEngageObjCUtils.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SanityRN/Pods-SanityRN-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SanityRN/Pods-SanityRN-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -295,7 +472,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C2E3173556A471DD304B334 /* Pods-SanityRN.debug.xcconfig */;
+			baseConfigurationReference = 485EDF14EA1905BD74216988 /* Pods-SanityRN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -324,7 +501,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A4D352CD337FB3A3BF06240 /* Pods-SanityRN.release.xcconfig */;
+			baseConfigurationReference = 30CF12C53DE1A948C4640359 /* Pods-SanityRN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

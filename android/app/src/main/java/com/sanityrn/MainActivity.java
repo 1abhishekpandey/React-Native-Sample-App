@@ -9,6 +9,11 @@ import com.facebook.react.ReactRootView;
 
 import expo.modules.ReactActivityDelegateWrapper;
 
+// MoEngage
+import com.moengage.core.LogLevel;
+import com.moengage.core.MoEngage;
+import com.moengage.core.config.LogConfig;
+
 public class MainActivity extends ReactActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +22,13 @@ public class MainActivity extends ReactActivity {
     // This is required for expo-splash-screen.
     setTheme(R.style.AppTheme);
     super.onCreate(null);
+
+    // MoEngage SDK initialisation: Replace "xxxxxxx" with your APP ID.
+    MoEngage moEngage = new MoEngage.Builder(MainActivity.this.getApplication(), "9CPVSGMJ6O0VL57NHN91QMSS")
+      .configureLogs(new LogConfig(LogLevel.VERBOSE, false))
+      .build();
+    MoEngage.initialiseDefaultInstance(moEngage);
+    
   }
 
   /**
